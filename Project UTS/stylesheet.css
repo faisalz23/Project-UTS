@@ -1,0 +1,108 @@
+/* Reset style untuk menghilangkan margin dan padding default */
+body, h1, h2, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #1e292c;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: skyblue;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: wheat;
+	height:100vh;
+	display:flex;
+	flex-direction:row;		align-items:center;
+	justify-content:space-evenly;
+}
+
+footer div a{
+	background-color:black;
+	border-radius:50%;
+	height:150px;
+	width:150px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	white-space:pre-line;
+	overflow:hidden;
+}
+
+footer div a:hover{
+	border-radius:50%;
+	box-shadow:
+		-5px 5px 10px,
+		5px -5px 10px,
+		5px 5px 10px,
+		-5px -5px 10px;
+}
+footer div a img{
+	border: radius 25%;;
+}
+footer div p{
+	text-align:center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
